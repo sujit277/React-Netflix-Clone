@@ -1,0 +1,162 @@
+.box4 {
+    background-image: url("../../images/1_5lyavS59mazOFnb55Z6znQ.png");
+    z-index: -1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.box5 {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.box6 {
+    margin-bottom: 50px;
+}
+
+.box7 {
+    color: white;
+    padding-left: 220px;
+}
+
+.box8 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.box9 {
+    color: white;
+    padding: 0px 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.box10 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    /* margin-right: 80px; */
+}
+
+.box11 {
+    color: white;
+    padding: 0px 40px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.box12 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.box13 {
+    color: white;
+    padding: 0px 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.box14 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.box15 {
+    color: white;
+    padding: 0px 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.box16 {
+    height: 400px;
+    margin-top: 60px;
+}
+
+.box17 {
+    margin-top: 60px;
+    height: 300px;
+}
+
+.box18 {
+    height: 400px;
+    margin-top: 60px;
+}
+
+.box19{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.box20{
+    color: white;
+    text-align: center;
+}
+
+.box21{
+    width: 80%;
+    height: 50px;
+    padding-left: 50px;
+    border-radius: 0px;
+}
+
+.box22{
+    height: 55px;
+    border-radius: 0px;
+    width: 20%;
+}
+
+@media only screen and (max-width: 770px) {
+    .box6 {
+        text-align: center;
+    }
+
+    .box7 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .box6 {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .box7 {
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 1088px) {
+    .box16 {
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+    
+}
