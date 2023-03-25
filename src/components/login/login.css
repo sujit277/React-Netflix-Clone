@@ -1,33 +1,33 @@
-.box1{
-    margin-bottom: 50px;
+.box1 {
+  margin-bottom: 50px;
 }
 
-.box2{
-    color: white;
-    padding-left: 220px;
+.box2 {
+  color: white;
+  padding-left: 220px;
 }
 
-.box3{
-    background-image: url("../../images/1_5lyavS59mazOFnb55Z6znQ.png");
-    z-index: -1;
+.box3 {
+  background-image: url("../../images/1_5lyavS59mazOFnb55Z6znQ.png");
+  z-index: -1;
 }
 
 @media only screen and (max-width: 770px) {
-    .box1{
-        text-align: center;
-    }
-    .box2{
-        padding-left: 0px;
-        text-align: center;
-    }
-    .box1{
-        margin-bottom: 0px; 
-    }
+  .box1 {
+    text-align: center;
   }
+  .box2 {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .box1 {
+    margin-bottom: 0px;
+  }
+}
 
-  @media only screen and (max-width: 380px) {
-    .box2{
-        padding-left: 0px;
-        text-align: center;
-    }
+@media only screen and (max-width: 380px) {
+  .box2 {
+    padding-left: 0px;
+    text-align: center;
   }
+}
