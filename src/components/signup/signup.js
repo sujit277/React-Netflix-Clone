@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Img2 from "../../images/Screenshot (616).png";
 import Img3 from "../../images/Screenshot (618).png";
 import Img4 from "../../images/Screenshot (619).png";
@@ -17,13 +18,13 @@ const Signup = () => {
                 style={{ height: "50px", margin: "10px" }}
                 alt="Please the Page"
               ></img>
-            </li>
+            </li> 
             <li className="box5">
-              <a href="/">
+              <Link to="/">
                 <button className="btn btn-danger" style={{ height: "55px" }}>
                   Sign In
                 </button>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

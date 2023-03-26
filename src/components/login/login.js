@@ -1,6 +1,7 @@
 import React from "react";
 import "./login.css";
 import Img1 from "../../images/Screenshot (616).png";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -51,12 +52,12 @@ const Login = () => {
           </button>
           <p style={{ color: "white", marginTop: "15px" }}>
             New to Netflix ?{" "}
-            <a
-              href="/signup"
+            <Link
+              to="/signup"
               style={{ color: "white", textDecorationLine: "none" }}
             >
               Sign up Now
-            </a>
+            </Link>
           </p>
           <div className="form-check">
             <input
@@ -74,7 +75,7 @@ const Login = () => {
               Remember me
             </label>
           </div>
-          <a href="/">
+          <Link to="/">
             <p
               style={{
                 color: "white",
@@ -86,7 +87,7 @@ const Login = () => {
               <i className="fa-brands fa-facebook-square"></i>
               <span style={{ paddingLeft: "10px" }}>Login with Facebook</span>
             </p>
-          </a>
+          </Link>
         </div>
       </div>
 
